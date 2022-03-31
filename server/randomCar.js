@@ -52,7 +52,7 @@ function randomProperty(props) {
 
 function randomCar() {
 	return {
-		deviceId: '' + Date.now(),
+		id: '' + Date.now(),
 		timestamp: Date.now(),
 		color: randomProperty(carColors),
 		carClass: randomProperty(carClasses),
